@@ -18,7 +18,7 @@ public class Join implements Task {
         actor.attemptsTo(Click.on(uTestJoin.JOIN_BUTTON),
                 Enter.theValue("Reto").into(uTestJoin.INPUT_FIRSTNAME),
                 Enter.theValue("Tecnico").into(uTestJoin.INPUT_LASTNAME),
-                Enter.theValue("retotecnicochoucair@gmail.com").into(uTestJoin.INPUT_EMAIL),
+                Enter.theValue("retotecnicochoucairtesting@gmail.com").into(uTestJoin.INPUT_EMAIL),
                 Click.on(uTestJoin.SELECT_MONTH), Click.on(uTestJoin.SELECT_MONTHOPTIONS),
                 Click.on(uTestJoin.SELECT_DAY), Click.on(uTestJoin.SELECT_DAYOPTIONS),
                 Click.on(uTestJoin.SELECT_YEAR), Click.on(uTestJoin.SELECT_YEAROPTIONS),
